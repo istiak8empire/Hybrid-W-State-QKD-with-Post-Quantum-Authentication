@@ -19,8 +19,6 @@ We present the first **complete, open-source implementation** of a hybrid crypto
 🔐 **Post-Quantum Authentication** via NIST-standardized CRYSTALS-Dilithium  
 ⚡ **High-Speed Encryption** with quantum-enhanced AES-256-GCM
 
-Born from groundbreaking research at North South University, this system doesn't just theorize about post-quantum security—it delivers a working, tested solution that bridges the quantum-classical divide.
-
 ---
 
 ## 🚀 Why This Matters
