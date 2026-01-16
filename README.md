@@ -32,6 +32,26 @@ We present the first **complete, open-source implementation** of a hybrid crypto
 
 ---
 
+## 🏗️ System Architecture (High-Level)
+
+
+
+### **Quantum Layer**
+* W-state preparation and distribution.
+* Decoy photon insertion for eavesdropping detection.
+* Measurement, key extraction, and entanglement verification.
+
+### **Classical Authentication Layer**
+* Dilithium-based message signing.
+* Secure classical channel establishment.
+* Pre-key derivation from signed session data.
+
+### **Encryption Layer**
+* AES-256 encryption using quantum-derived keys.
+* Performance benchmarking across different AES modes (CBC, GCM, etc.).
+
+---
+
 ## 🎯 What Makes This Different
 
 ### 🌟 **Three-Layer Quantum Armor**
@@ -46,3 +66,15 @@ encrypted = encryptor.protect(
     quantum_backend="ibm_osaka",  # Yes, real quantum hardware
     security_level="post_quantum"
 )
+```
+---
+## 🧪 Experimental Results
+The system was validated under ideal and noisy quantum channels. Key metrics evaluated include:
+
+* **Quantum Bit Error Rate (QBER):** Analysis of error thresholds under decoherence.
+* **Key Generation Success Rate:** Efficiency of the W-state protocol.
+* **Noise Robustness:** Resilience comparison against standard Bell-state protocols.
+* **Performance Overhead:** Latency analysis of AES encryption and Post-Quantum signature verification.
+
+**Conclusion:** The results demonstrate that the proposed hybrid scheme remains secure, efficient, and practical even under realistic quantum noise conditions.
+---
