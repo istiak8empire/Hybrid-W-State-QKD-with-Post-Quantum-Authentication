@@ -16,8 +16,8 @@
 We present the first **complete, open-source implementation** of a hybrid cryptographic framework that seamlessly integrates:
 
 🔮 **Quantum Key Distribution** using noise-resilient W-states  
-🔐 **Post-Quantum Authentication** via NIST-standardized CRYSTALS-Dilithium  
-⚡ **High-Speed Encryption** with quantum-enhanced AES-256-GCM
+🔐 **Post-Quantum Authentication** via NIST-standardized CRYSTALS-Dilithium and generate pre-key using it 
+⚡ **Encryption using AES-256-GCM** with secret key achieved from our hybrid key distribution protocol
 
 ---
 
@@ -26,9 +26,9 @@ We present the first **complete, open-source implementation** of a hybrid crypto
 | The Problem | Our Solution |
 |-------------|-------------|
 | ❌ **Quantum computers will break RSA/ECC** within 10-20 years | ✅ **Quantum-safe today** with lattice-based cryptography |
-| ❌ **Traditional QKD breaks** with noise and particle loss | ✅ **W-states survive** where GHZ states fail |
+| ❌ **Traditional QKD post-processing fails** to generate identical keys due to noise and particle loss | ✅ **W states survives with proposed entanglement verification method** where GHZ states fail in case of multipartite entanglement |
 | ❌ **Most solutions** are either quantum OR classical | ✅ **True hybrid architecture** that leverages the best of both worlds |
-| ❌ **Theoretical papers** without working code | ✅ **Production-ready implementation** you can run right now |
+| ❌ **Theoretical papers** without working code | ✅ **Implementation validated by simulations** you can run right now |
 
 ---
 
