@@ -50,23 +50,7 @@ We present the first **complete, open-source implementation** of a hybrid crypto
 * AES-256 encryption using quantum-derived keys.
 * Performance benchmarking across different AES modes (CBC, GCM, etc.).
 
----
 
-## 🎯 What Makes This Different
-
-### 🌟 **Three-Layer Quantum Armor**
-
-```python
-# It's this simple to be quantum-safe:
-from hybrid_qkd import QuantumSafeEncryptor
-
-encryptor = QuantumSafeEncryptor()
-encrypted = encryptor.protect(
-    message="Your most sensitive data",
-    quantum_backend="ibm_osaka",  # Yes, real quantum hardware
-    security_level="post_quantum"
-)
-```
 ---
 ## 🧪 Experimental Results
 The system was validated under ideal and noisy quantum channels. Key metrics evaluated include:
