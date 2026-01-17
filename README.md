@@ -10,10 +10,11 @@
 ## ✨ At a Glance
 
 > **Exploring how quantum and post-quantum cryptography can be combined to strengthen secure key establishment in future communication systems.**
-> > This repository presents a **research-oriented, open-source implementation** of a hybrid cryptographic framework that integrates:
+This repository presents a **research-oriented, open-source implementation** of a hybrid cryptographic framework that integrates:
 
 🔮 **Quantum Key Distribution** using noise-resilient W-states  
 🔐 **Post-Quantum Authentication** via NIST-standardized CRYSTALS-Dilithium and generate pre-key using it 
+
 ⚡ **Encryption using AES-256-GCM** with secret key achieved from our hybrid key distribution protocol
 
 The framework focuses on **protecting the key establishment and authentication layers**, which are known to be vulnerable to quantum adversaries, while leveraging AES as a robust symmetric cipher for payload encryption.
