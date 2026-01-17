@@ -2,7 +2,7 @@
 
 **A Hybrid W-State Quantum Key Distribution and Post-Quantum Authentication Scheme for Secure AES Encryption**
 
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![Python]](https://www.python.org/downloads/)
 [![Qiskit](https://img.shields.io/badge/Built%20with-Qiskit-6929C4.svg)](https://qiskit.org/)
 [![Post-Quantum](https://img.shields.io/badge/Post--Quantum-NIST%20Standardized-green.svg)](https://csrc.nist.gov/projects/post-quantum-cryptography)
 [![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
