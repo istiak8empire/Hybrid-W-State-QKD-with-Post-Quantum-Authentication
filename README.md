@@ -1,4 +1,4 @@
-# 🌌 Quantum-Safe Cryptography Meets Practical Implementation
+# 🌌 Proposed Quantum-Safe Cryptography for Practical Implementation: A Qiskit based simulation study
 
 **A Hybrid W-State Quantum Key Distribution and Post-Quantum Authentication Scheme for Secure AES Encryption**
 
